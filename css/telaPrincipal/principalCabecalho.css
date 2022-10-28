@@ -183,6 +183,11 @@
          height: 12vh;
  
      }
+
+     .cabecalho__botao-link {
+        color: #2A7AE4;
+        text-decoration: none;
+     }
  
      .cabecalho__imagem-titulo {
  

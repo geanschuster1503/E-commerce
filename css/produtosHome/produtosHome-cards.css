@@ -138,6 +138,12 @@ margin-right: 18.5%;
 
 @media screen and (min-width:1200px) {
 
+    .produtos__botao-link {
+
+        text-decoration: none;
+        color: #FFFFFF;
+    }
+
     .produtos__container {
       
        
