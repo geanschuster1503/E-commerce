@@ -1,0 +1,106 @@
+.contato__formulario {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    
+}
+
+.contato__titulo {
+
+    font-size: 1rem;
+    color:#464646;
+    margin-bottom: 1em;
+}
+
+.contato__input-nome {
+    text-indent: 10px;
+    width: 30em;
+    height: 5vh;
+    border: none;
+    margin-bottom: 1em;
+}
+
+.contato__area-texto {
+
+   
+    width: 30em;
+    max-width: 40em;
+    min-width: 20em;
+    min-height: 10vh;
+    max-height: 25vh;
+    height: 10vh;
+    max-height: 15vh;
+    text-indent: 10px;
+}
+
+.contato__botao {
+    height: 5vh;
+    width: 15rem;
+    background-color: #2A7AE4;
+    border:transparent;
+    color: #FFFFFF;
+    font-size: 0.em;
+
+}
+
+@media screen and (min-width:0px) {
+
+
+    .contato__formulario {
+       align-items: flex-start;
+        margin-right: 4rem;
+        
+    }
+
+
+
+    .contato__input-nome {
+
+        width: 20rem;
+
+    }
+
+    .contato__area-texto {
+
+        width: 20rem;
+        
+    }
+
+}
+    
+@media screen and (min-width:768px) {
+
+    .contato__formulario {
+
+        padding-top: 3%;
+        margin-left: 8rem;
+    }
+
+}
+
+@media screen and (min-width:1024px) {
+
+   .contato__formulario {
+
+    padding-top:0;
+    padding-right: 5rem;
+    
+   }
+
+   .contato__input-nome, .contato__area-texto {
+
+    width: 18rem;
+
+   }
+
+
+   .contato__area-texto {
+
+    width: 18rem;
+    max-width: 35rem;
+    min-width: 12em;
+    min-height: 10vh;
+    max-height: 25vh;
+    
+}
+}

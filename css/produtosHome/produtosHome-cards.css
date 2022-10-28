@@ -1,0 +1,166 @@
+.produtos__caixa {
+
+    margin-top: 10%;
+   
+    
+
+}
+
+.produtos__cabecalho {
+
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-left: 17%;
+margin-right: 18.5%;
+
+}
+
+
+.produtos__container {
+    margin-top: 2%;
+    display: grid;
+    gap: 1%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.produtos__imagens {
+
+    width: 80%;
+
+}
+
+
+.produtos__titulo {
+
+    color:#464646;
+    
+}
+
+.produtos__botao {
+
+    color: #FFFFFF;
+    background-color:#2A7AE4;
+    border: none;
+    height: 3rem;
+    padding: 1rem;
+
+}
+
+.produtos__card:hover {
+
+    background: url(/imagens/lixeira.png) no-repeat;
+
+}
+
+
+.produtos__titulo-card {
+    margin-top: 1%;
+    color: #464646;
+    font-size: 1rem;
+    font-weight: 400;
+
+}
+
+.produtos__preco-card {
+    margin-top: 1%;
+    color: #464646;
+    font-weight: 700;
+    font-size: 1rem;
+
+}
+
+
+ @media screen and (min-width:0) {
+
+    .produtos__cabecalho {
+        flex-direction: column;
+       margin-left: 2%;
+    }
+
+    .produtos__titulo {
+
+        color:#464646;
+        margin-bottom: 1%;
+    }
+    
+    .produtos__botao {
+        
+        width:12rem;
+        margin-bottom: 2rem;
+        height: 5vh;
+        
+    }
+
+    .produtos__caixa {
+
+        margin-top:15%;
+        
+    }
+
+    .produtos__container {
+        
+        grid-template-columns:50% 50% ;
+        grid-template-rows: 12%  12% ;
+        margin-left: 3%;
+        margin-bottom: 50%;
+        padding-bottom: 10%;
+    }
+
+
+} 
+
+@media screen and (min-width:768px) {
+
+    .produtos__container {
+      
+       
+        grid-template-columns:20% 20% 20% 20% ;
+        grid-template-rows: 20%  20% 20% 20% ;
+        margin-left: 3%;
+        margin-bottom: 10%;
+        padding-bottom: 10%;
+    }
+
+    .produtos__cabecalho {
+
+        
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+        }
+
+
+}
+
+@media screen and (min-width:1200px) {
+
+    .produtos__container {
+      
+       
+        grid-template-columns:15% 15% 15% 15% 15% 15% ;
+        grid-template-rows: 40%  40% 40%;
+        margin-left: 3%;
+        margin-bottom: 10%;
+        padding-bottom: 10%;
+    }
+
+    .produtos__cabecalho {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 5%;
+        margin-right: 5.5%;
+        
+        }
+
+}
+
+
+
+
+

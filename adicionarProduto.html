@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/AdicionarProduto/adicionar-cabecalho.css">
+    <link rel="stylesheet" href="./css/AdicionarProduto/adicionar-contato.css">
+    <link rel="stylesheet" href="./css/AdicionarProduto/adicionar-formulario.css">
+    <link rel="stylesheet" href="./css/AdicionarProduto/adicionar-sobre.css">
+    <link rel="stylesheet" href="./css/AdicionarProduto/adicionar-rodape.css">
+
+    <link rel="icon" href="./imagens/icon.svg">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+<header class="cabecalho">
+        <nav class="cabecalho__navegacao">
+            <div class="cabecalho__imagem-titulo">
+                <img class="cabecalho__imagem" src="./imagens/icon.svg" alt="imagem-logo">
+                <h1 class="cabecalho__titulo"><span>Alura</span>Geek</h1>
+            </div>
+            <input class="cabecalho__barra-de-pesquisa" type="text" placeholder="O que deseja encontrar ?">
+            <button class="cabecalho__botao">Menu administrador</button>
+        </nav>
+</header>
+
+
+
+
+    <main>
+        <section class="novoProduto-formulario">
+        <form action="" class="formulario">
+        <h1 class="novoProduto-titulo">Adicionar novo produto</h1>
+
+        <input type="text" class="novoProduto-input" placeholder="URL da imagem" >
+        <input type="text" class="novoProduto-input" placeholder="Categorias" >
+        <input type="text" class="novoProduto-input" placeholder="Nome do produto">
+        <input type="number" class="novoProduto-input" placeholder="Preço do produto" >
+        <input type="text" class="novoProduto-input" placeholder="Descrição do produto">
+
+        <button class="novoProduto-botao">Adicionar produto</button>
+        </form>
+        </section>
+
+        <section class="sobre">
+            <nav class="sobre__navegacao">
+                <div class="teste">
+                    <div class="sobre__imagem-titulo">
+                        <img class="sobre__imagem" src="./imagens/icon.svg" alt="imagem-logo">
+                        <h1 class="sobre__titulo"><span> Alura</span>Geek</h1>
+                    </div>
+                    <div class="sobre__links">
+                        <a class="links" href="">Quem somos nós</a>
+                        <a class="links" href="">Política de privacidade </a>
+                        <a class="links" href="">Programa fidelidade</a>
+                        <a class="links" href="">Nossas Lojas </a>
+                        <a class="links" href="">Quero ser franqueado</a>
+                        <a class="links" href="">Anuncie aqui</a>
+                    </div>
+                </div>
+                <form class="contato__formulario" action="">
+                    <h2 class="contato__titulo"> Fale conosco</h2>
+                    <label for="nome-contato">
+                        <input id="nome-contato" class="contato__input-nome" type="text" placeholder="Nome">
+                    </label>
+
+                    <label for="textearea-mensagem">
+                        <textarea placeholder="Escreva sua Mensagem" class="contato__area-texto " name=""
+                            id="textearea-mensagem" cols="30" rows="10"></textarea>
+                    </label>
+
+                    <button class="contato__botao">Enviar mensagem</button>
+
+                </form>
+            </nav>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <h3>Desenvolvido por Gean Schuster&copy</h3>
+        <h3>2022</h3>
+    </footer>
+</body>
+
+</html>

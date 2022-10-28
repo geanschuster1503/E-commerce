@@ -1,0 +1,256 @@
+.banner {
+
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+
+
+.produtos__starWars-cabecalho h3, .produtos__console-cabecalho h3, .produtos__diversos-cabecalho h3{
+
+    color: #464646;
+    font-size: 2rem;
+}
+
+.produtos__starWars-cabecalho a, .produtos__console-cabecalho a, .produtos__diversos-cabecalho a  {
+
+    color: #2A7AE4;
+    font-size: 1.5rem;
+}
+
+
+.produtos__starWars-cards{
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14% 14% 14%;
+    grid-template-rows: 20%;
+    justify-content: center;
+    margin-bottom: 2%;
+    
+}
+
+.produtos__console-cards {
+
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14% 14% 14%;
+    grid-template-rows: 20%;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
+.produtos__diversos-cards {
+    display: grid;
+    grid-template-columns: 14% 14% 14% 14% 14% 14%;
+    grid-template-rows: 20%;
+    justify-content: center;
+    margin-bottom: 2%;
+
+}
+
+.card {
+    margin-left: 20%;
+    
+}
+
+.card a {
+
+    color: #2A7AE4 ;
+
+}
+
+.produtos__titulo-card {
+
+    font-weight: 400;
+    color:#464646;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.produtos__preco-card {
+
+    color: #464646;
+    padding-bottom: 0.5rem;
+}
+
+
+@media screen and (min-width:0) {
+
+    .banner {
+        transform: scale(1);
+        height: 20vh;
+        
+    }
+
+    .produtos__starWars, .produtos__console, .produtos__diversos {
+        margin-bottom: 10%;
+
+    }
+    
+    .produtos__starWars-cabecalho, .produtos__console-cabecalho, .produtos__diversos-cabecalho {
+
+        display: flex;
+        justify-content: space-between;
+        margin-left: 8%;
+        margin-right: 5%;
+     }
+
+    .produtos__starWars-cards{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 55%;
+        margin-bottom: 2%;
+        margin-right: 10%;
+        
+    }
+
+    .produtos__console-cards{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 55%;
+        margin-bottom: 2%;
+        margin-right: 10%;
+        
+    }
+
+    .produtos__diversos-cards{
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 55%;
+        margin-bottom: 2%;
+        margin-right: 10%;
+        
+    }
+
+    .card:nth-child(5) {
+
+        display: none;
+    }
+
+    .card:nth-child(6) {
+
+        display: none;
+    }
+
+
+}
+
+@media screen and (min-width:768px) {
+
+    .banner {
+       
+        height: 30vh;
+        
+        
+        
+    }
+
+    .produtos__starWars, .produtos__console, .produtos__diversos {
+        margin-bottom: 10%;
+
+    } 
+
+    .produtos__starWars-cards{
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 55%;
+        margin-bottom: 2%;
+        margin-right: 10%;
+        gap: 2%;
+    }
+
+    .produtos__console-cards{
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 55%;
+        margin-bottom: 2%;
+        margin-right: 10%;
+        gap: 2%;
+    }
+
+    .produtos__diversos-cards{
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 55%;
+        margin-bottom: 2%;
+        margin-right: 10%;
+        gap: 2%;
+    }
+
+
+    .produtos__starWars-cabecalho, .produtos__console-cabecalho, .produtos__diversos-cabecalho {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-bottom: 0.5%;
+    }
+
+}
+
+@media screen and (min-width:1220px) {
+
+    
+
+    .banner {
+
+        height:50vh;
+    }
+
+    .produtos {
+
+        display: grid;
+        
+        
+    }
+
+    .produtos__starWars, .produtos__console, .produtos__diversos {
+
+        margin-bottom: 0;
+    }
+
+    .produtos__starWars-cabecalho, .produtos__console-cabecalho, .produtos__diversos-cabecalho {
+
+
+    margin-left: 9.5%;
+    margin-right: 12.5%;
+
+ }
+
+   
+
+    .produtos__starWars-cards{
+        display: grid;
+        grid-template-columns: 14% 14% 14% 14% 14% 14%;
+        grid-template-rows: 20%;
+        justify-content: center;
+        
+        margin-left: 5%;
+        
+    }
+    
+    .produtos__console-cards {
+    
+        display: grid;
+        grid-template-columns: 14% 14% 14% 14% 14% 14%;
+        grid-template-rows: 20%;
+        justify-content: center;
+        margin-bottom: 2%;
+        margin-left: 5%;
+    }
+    
+    .produtos__diversos-cards {
+        display: grid;
+        grid-template-columns: 14% 14% 14% 14% 14% 14%;
+        grid-template-rows: 20%;
+        justify-content: center;
+        margin-bottom: 2%;
+        margin-left: 5%;
+    
+    }
+
+    .card:nth-child(5) {
+
+        display: grid;
+    }
+
+    .card:nth-child(6) {
+
+        display: grid;
+    }
+
+
+
+
+}

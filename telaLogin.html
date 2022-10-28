@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/telaLogin/telaLogin-cabecalho.css">
+    <link rel="stylesheet" href="./css/telaLogin/telaLogin-contato.css">
+    <link rel="stylesheet" href="./css/telaLogin/telaLogin-formulario.css">
+    <link rel="stylesheet" href="./css/telaLogin/telaLogin-rodape.css">
+    <link rel="stylesheet" href="./css/telaLogin/telaLogin-sobre.css">
+    <link rel="stylesheet" href="./css/telaLogin/telaLogin.css">
+
+    <link rel="icon" href="./imagens/icon.svg">
+    <title>AluraGeek</title>
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <nav class="cabecalho__navegacao">
+            <div class="cabecalho__imagem-titulo">
+                <img class="cabecalho__imagem" src="./imagens/icon.svg" alt="imagem-logo">
+                <h1 class="cabecalho__titulo"><span> Alura</span>Geek</h1>
+            </div>
+            <input class="cabecalho__barra-de-pesquisa" type="text" placeholder="O que deseja encontrar ?">
+
+        </nav>
+    </header>
+
+    <main>
+        <section class="formulario__login">
+            <form class="formulario" action="">
+                <div class="formulario__dentro">
+                    <h2 class="formulario__titulo">Iniciar Sessão</h2>
+                    <label for="email-formulario">
+                        <input id="email-formulario" class="formulario__inputs" class="formulario__input-email"
+                            type="email" placeholder="Escreva seu email" placeholder="Escreva seu email">
+                    </label>
+
+                    <label for="senha-formulario">
+                        <input id="senha-formulario" class="formulario__inputs" class="formulario__input-senha"
+                            type="password" placeholder="Escreva sua senha">
+                    </label>
+
+                    <button  class="formulario__botao"> <a class="formulario__link-botao" href="produtosHome.html"> Entrar </a></button>
+                </div>
+            </form>
+        </section>
+
+
+        <section class="sobre">
+            <nav class="sobre__navegacao">
+                    <div class="teste">
+                    <div class="sobre__imagem-titulo">
+                        <img class="sobre__imagem" src="./imagens/icon.svg" alt="imagem-logo">
+                        <h1 class="sobre__titulo"><span>Alura</span>Geek</h1>
+                    </div>
+                    <div class="sobre__links">
+                        <a class="links" href="">Quem somos nós</a>
+                        <a class="links" href="">Política de privacidade </a>
+                        <a class="links" href="">Programa fidelidade</a>
+                        <a class="links" href="">Nossas Lojas </a>
+                        <a class="links" href="">Quero ser franqueado</a>
+                        <a class="links" href="">Anuncie aqui</a>
+                    </div>
+                </div>
+                <form class="contato__formulario" action="">
+                    <h2 class="contato__titulo"> Fale conosco</h2>
+                    <label for="nome-contato">
+                        <input id="nome-contato" class="contato__input-nome" type="text" placeholder="Nome">
+                    </label>
+
+                    <label for="textearea-mensagem">
+                        <textarea placeholder="Escreva sua Mensagem" class="contato__area-texto " name=""
+                            id="textearea-mensagem" cols="30" rows="10"></textarea>
+                    </label>
+
+                    <button class="contato__botao">Enviar mensagem</button>
+
+                </form>
+            </nav>
+        </section>
+    </main>
+
+
+    <footer class="rodape">
+        <h3>Desenvolvido por Gean Schuster&copy</h3>
+        <h3>2022</h3>
+    </footer>
+
+
+
+</body>
+
+</html>

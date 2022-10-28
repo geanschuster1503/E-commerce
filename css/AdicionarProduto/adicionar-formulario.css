@@ -1,0 +1,84 @@
+.novoProduto-formulario {
+    display: flex;
+    justify-content: center;
+    padding: 5% 0;
+}
+
+.novoProduto-titulo {
+
+    color: #464646;
+    font-size: 3rem;
+    
+}
+
+.formulario {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.novoProduto-input{
+
+
+    height: 6vh;
+    border: none;
+    margin: 1rem 0;
+    text-indent: 10px;
+}
+
+.novoProduto-botao {
+    height: 5vh;
+    background-color: #2A7AE4; ;
+    color: #FFFFFF;
+    border: none;
+
+}
+
+@media screen and (min-width:0) {
+
+    .formulario {
+        width: 80%;
+
+    }
+
+    .novoProduto-titulo {
+
+        color: #464646;
+        font-size: 1.5rem;
+        
+    }
+
+    
+
+}
+
+
+@media screen and (min-width:768px) {
+
+    .novoProduto-titulo {
+
+        font-size: 2rem;
+
+    }
+
+}
+
+@media screen and (min-width:1220px) {
+
+    .novoProduto-titulo {
+
+        font-size: 3rem;
+
+    }
+
+    .formulario {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+    }
+
+
+}
